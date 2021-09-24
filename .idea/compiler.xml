@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="food-tinder" target="1.5" />
+      <module name="food-tinder" target="15" />
     </bytecodeTargetLevel>
   </component>
 </project>
