@@ -23,6 +23,10 @@ public class App
         }
     }
 
+    public int add(int a, int b) {
+	return a + b;
+    }
+
     private static void log(String msg, String... vals) {
         System.out.println(String.format(msg, vals));
     }

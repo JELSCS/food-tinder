@@ -1,6 +1,7 @@
 package com.mycompany.app;
 
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
@@ -9,6 +10,8 @@ import org.junit.Test;
  */
 public class AppTest 
 {
+    App app;
+
     /**
      * Rigorous Test :-)
      */
@@ -16,5 +19,12 @@ public class AppTest
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
+    }
+
+    @Test
+    @DisplayName("Simple addition")
+    void testAddition() {
+	assertEquals(8, app.add(3, 5),
+		"Addition should work");
     }
 }
