@@ -7,6 +7,10 @@ import java.io.IOException;
 
 public class App 
 {
+    public int squared(int num){
+        return (num*num);
+    }
+
     public static void main( String[] args ) throws IOException
     {
         Document doc = Jsoup.connect("https://en.wikipedia.org/").get();
