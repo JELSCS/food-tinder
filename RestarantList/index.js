@@ -31,7 +31,7 @@ export default class index extends Component {
        )
 
       });
-     const r  =  (y.length > 0 ) ? (  y ) : (    <Alert type="error"  message="No more Reseults found !!" banner /> )
+     const r  =  (y.length > 0 ) ? (  y ) : (    <Alert type="error"  message="No more Reseults found !!" banner /> ) 
  
 
     return (
