@@ -20,7 +20,6 @@ function TinderCards() {
     
     return (
         <div>
-            <h1>Tinder cards</h1>
             <div className="tinderCards_cardContainer">
             {restaurant.map((place) => (
                 <TinderCard

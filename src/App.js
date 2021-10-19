@@ -9,11 +9,9 @@ import ByePage from './pages/Bye';
 function App() {
   return (
     <div className="App">
-      <h1>Food Tinder</h1>
-
       {/* Header */}
       <Header />
-
+      
       {/* Tinder Cards */}
       <TinderCards />
 
