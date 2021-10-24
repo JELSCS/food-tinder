@@ -7,7 +7,7 @@ export default function Nav() {
     <div className={"nav"}>
     <Row>
     <Col span={8}>
-    <h2 className={"food"}> Are you hungry?</h2> 
+    <h2 className={"food"}> Are you hungry?</h2>
     </Col>
     <Col span={2} offset={4} >
     
