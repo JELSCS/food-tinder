@@ -3,7 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as BrowserRouter, Route } from 'react-router-dom';
+import {
+    Nav,
+    About,
+    Login,
+} from "./";
+
+export { default as App } from "./App";
+export { default as Nav } from "./Nav/Nav";
+export { default as About } from "./About/About";
+export { default as Login } from "./Login/Login";
+
+
 
 ReactDOM.render(
   <BrowserRouter>
