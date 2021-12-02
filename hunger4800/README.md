@@ -1,6 +1,5 @@
-<a herf "https://hunger4800.herokuapp.com/">Click here</a> to open the application.
+The link of the hunger app: https://hunger4800.herokuapp.com/ 
 
-##Overview
 Hunger app helps users to find the nearest restaurant based on what they want. Users can search for cafe, restaurant, or bar. Users can choose what meal they want, breakfast, lunch, or dinner. 
 Hunger app will show users nearest locations to eat based on what they search for. 
 Users can search for any city in any country.
